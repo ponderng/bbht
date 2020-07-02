@@ -62,9 +62,9 @@ fi
 
 
 #Don't forget to set up AWS credentials!
-echo "Don't forget to set up AWS credentials!"
-apt install -y awscli
-echo "Don't forget to set up AWS credentials!"
+#echo "Don't forget to set up AWS credentials!"
+#apt install -y awscli
+#echo "Don't forget to set up AWS credentials!"
 
 
 
@@ -78,9 +78,9 @@ go get github.com/michenriksen/aquatone
 echo "done"
 
 #install chromium
-echo "Installing Chromium"
-sudo snap install chromium
-echo "done"
+#echo "Installing Chromium"
+#sudo snap install chromium
+#echo "done"
 
 echo "installing JSParser"
 git clone https://github.com/nahamsec/JSParser.git
@@ -138,7 +138,7 @@ cd ~/tools/
 echo "done"
 
 echo "installing lazyrecon"
-git clone https://github.com/nahamsec/lazyrecon.git
+git clone https://github.com/ponderng/lazyrecon.git
 cd ~/tools/
 echo "done"
 
@@ -189,4 +189,4 @@ echo "done"
 
 echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
 ls -la
-echo "One last time: don't forget to set up AWS credentials in ~/.aws/!"
+#echo "One last time: don't forget to set up AWS credentials in ~/.aws/!"
